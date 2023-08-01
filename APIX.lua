@@ -1,7 +1,3 @@
-getgenv().Setting = {
-	["Auto Farm"] = false
-}
-
 if not getgenv().Setting then return warn("couldn't found setting") end 
 
 local Players = game:GetService("Players").LocalPlayer
